@@ -14,11 +14,11 @@ export default function GroceryItem({ id, item, status, onToggle, onDelete }: Gr
         <li className={styles.groceryItem}>
             {item}
             <button className={style.mybutton} onClick={() => onToggle(id)}>
-                {status === 'bought' ? '✅' : '🔲'}
+                {status === 'bought' ? '✅ Bought' : '🔲'}
             </button>
 
             <button className={style.mybutton} onClick={() => onDelete(id)}>
-                🗑️
+                🗑️Delete
             </button>
         </li>
     );

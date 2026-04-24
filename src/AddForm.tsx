@@ -17,7 +17,7 @@ export default function AddForm({ onAdd }: AddFormProps) {
     };
 
     return (
-        <form onSubmit={handleSubmit} style={{ marginBottom: '20px' }}>
+        <form onSubmit={handleSubmit} className={styles.form}>
             <input 
                 type="text" 
                 value={inputValue} 
