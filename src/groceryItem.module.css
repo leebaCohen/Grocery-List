@@ -1,0 +1,12 @@
+.groceryItem {
+  padding: 25px 50px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color:rgb(191, 249, 222);
+  margin: 10px;
+  font-size: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width:500px;
+  height: 60px;
+}
